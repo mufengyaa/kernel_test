@@ -1,0 +1,1 @@
+cmd_/home/mufeng/kernel/pthread_create/code.ko := ld -r -m elf_x86_64 -T ./scripts/module-common.lds --build-id  -o /home/mufeng/kernel/pthread_create/code.ko /home/mufeng/kernel/pthread_create/code.o /home/mufeng/kernel/pthread_create/code.mod.o
