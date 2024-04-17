@@ -1,0 +1,1 @@
+cmd_/home/mufeng/c++/syscall_replace/code.ko := ld -r -m elf_x86_64 -T ./scripts/module-common.lds --build-id  -o /home/mufeng/c++/syscall_replace/code.ko /home/mufeng/c++/syscall_replace/code.o /home/mufeng/c++/syscall_replace/code.mod.o
